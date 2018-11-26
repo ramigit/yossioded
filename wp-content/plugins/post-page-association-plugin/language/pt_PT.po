@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Page Associator Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-16 17:21+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dennis Hoppe\n"
+"Language-Team: Paulo Teixeira <psergio.teixeira@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: t;t:2c,1\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: PORTUGAL\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-plugin-post-page-associator.php:92
+msgid "Associated Posts Settings"
+msgstr "Configuração de Entradas Associadas"
+
+#: ../wp-plugin-post-page-associator.php:93
+#: ../wp-plugin-post-page-associator.php:103
+msgid "Associated Posts"
+msgstr "Entradas Associadas"
+
+#: ../wp-plugin-post-page-associator.php:154
+msgid "Associate posts with this page"
+msgstr "Entradas Associadas com esta Página"
+
+#: ../meta_box.php:4
+msgid "Select posts by category"
+msgstr "Seleccionar Entradas por Categorias"
+
+#: ../meta_box.php:6
+#: ../meta_box.php:27
+#: ../meta_box.php:48
+msgid "Selection mode:"
+msgstr "Modo de Selecção"
+
+#: ../meta_box.php:8
+msgid "Add to my selection: All posts which are at least in one of these categories."
+msgstr "Adicionar à minha selecção: Todas as entradas que se encontrem em pelo menos uma das seguintes categorias."
+
+#: ../meta_box.php:9
+msgid "Filter my selection: Only posts which are at least in one of these categories."
+msgstr "Filtrar a minha Selecção: Apenas entradas que se encontrem em pelo menos uma das seguintes categorias."
+
+#: ../meta_box.php:10
+msgid "Add to my selection: All posts which are in all of these categories."
+msgstr "Adicionar à minha selecção: Todas as entradas que se encontram nas seguintes categorias"
+
+#: ../meta_box.php:11
+msgid "Filter my selection: Only posts which are in all of these categories."
+msgstr "filtrar a minha seleccção: Apenas entradas que se encontram nas seguintes categorias"
+
+#: ../meta_box.php:12
+msgid "Do not care about categories."
+msgstr "Não ter em conta as categorias"
+
+#: ../meta_box.php:25
+msgid "Select posts by tag"
+msgstr "selecionar entradas por etiqueta (tag)"
+
+#: ../meta_box.php:29
+msgid "Add to my selection: All posts which are tagged with at least one of these tags."
+msgstr "Adicionar à minha selecção: Todas as entradas associadas com pelo menos uma das seguintes etiquetas"
+
+#: ../meta_box.php:30
+msgid "Filter my selection: Only posts which are tagged with at least one of these tags."
+msgstr "Filtrar a miha selecção: Apenas entradas que estão associadas com pelo menos uma das seguintes etiquetas"
+
+#: ../meta_box.php:31
+msgid "Add to my selection: All posts which are tagged with all of these tags."
+msgstr "Adicionar à minha selecção: Todas as entradas que se encontrem associadas com as seguintes etiquetas"
+
+#: ../meta_box.php:32
+msgid "Filter my selection: Only posts which are tagged with all of these tags."
+msgstr "Filtrar a minha selecção: Apenas entradas que se encontrem associadas com as seguintes etiquetas"
+
+#: ../meta_box.php:33
+msgid "Do not care about tags."
+msgstr "Não ter em contas as etiquetas"
+
+#: ../meta_box.php:46
+msgid "Select posts by author"
+msgstr "Selecionar entradas por autor"
+
+#: ../meta_box.php:50
+msgid "Add to my selection: All posts by these authors."
+msgstr "Adicionar à minha selecção: Todas as entradas dos seguintes autores"
+
+#: ../meta_box.php:51
+msgid "Filter my selection: Only posts by these authors."
+msgstr "Filtrar a minha selecção: Apenas entradas dos seguintes autores"
+
+#: ../meta_box.php:52
+msgid "Do not care about authors."
+msgstr "Não ter em conta os autores"
+
+#: ../meta_box.php:64
+msgid "Select posts explicitly (Additionally to your Selection.)"
+msgstr "Selecionar entradas implícitas (adicional)"
+
+#: ../meta_box.php:69
+#, php-format
+msgid "Post %s (Without title)"
+msgstr "Entradas %s (sem título)"
+
+#: ../meta_box.php:78
+msgid "Number of posts:"
+msgstr "Número de entradas"
+
+#: ../meta_box.php:78
+msgid "Leave blank to show all."
+msgstr "Deixar em branco para que todas fiquem visíveis"
+
+#: ../meta_box.php:82
+msgid "Offset:"
+msgstr ""
+
+#: ../meta_box.php:82
+msgid "Leave blank to start with the first post."
+msgstr ""
+
+#: ../meta_box.php:83
+#: ../meta_box.php:88
+#, php-format
+msgid "This feature is only available in <a href=\"%s\" target=\"_blank\">Associated Posts Pro</a>."
+msgstr ""
+
+#: ../meta_box.php:87
+msgid "Posts per page:"
+msgstr ""
+
+#: ../meta_box.php:87
+#, fuzzy
+msgid "Leave blank to show all posts on one page."
+msgstr "Deixar em branco para que todas fiquem visíveis"
+
+#: ../meta_box.php:93
+msgid "Order posts by:"
+msgstr "Ordenar entradas por:"
+
+#: ../meta_box.php:104
+msgid "Order:"
+msgstr "Ordem"
+
+#: ../meta_box.php:106
+msgid "Descending"
+msgstr "Decrescente"
+
+#: ../meta_box.php:107
+msgid "Ascending"
+msgstr "Acrescente"
+
+#: ../meta_box.php:112
+#: ../meta_box.php:116
+#: ../meta_box.php:117
+#: ../options_page.php:70
+#: ../options_page.php:71
+msgid "Buy the Pro-Version"
+msgstr ""
+
+#: ../meta_box.php:122
+msgid "Template"
+msgstr ""
+
+#: ../meta_box.php:134
+#: ../meta_box.php:136
+#: ../options_page.php:27
+#: ../options_page.php:29
+msgid "by"
+msgstr ""
+
+#: ../options_page.php:1
+msgid "Position"
+msgstr ""
+
+#: ../options_page.php:4
+#, fuzzy
+msgid "Append the associated posts to the pages content."
+msgstr "<b>Não</> anexar automáticamente as entradas associadas às páginas"
+
+#: ../options_page.php:8
+#, fuzzy
+msgid "Prepend the associated posts to the pages content."
+msgstr "<b>Não</> anexar automáticamente as entradas associadas às páginas"
+
+#: ../options_page.php:12
+#, fuzzy
+msgid "<b>Do not</b> show the associated posts to the pages automatically. (In this case you have to add the short code manually.)"
+msgstr "<b>Não</> anexar automáticamente as entradas associadas às páginas"
+
+#: ../options_page.php:16
+msgid "Templates"
+msgstr ""
+
+#: ../options_page.php:32
+#, php-format
+msgid "Found in <em>%s</em>."
+msgstr ""
+
+#: ../options_page.php:41
+msgid "Do not show any text of the associated posts. (Only the title with link to the post.)"
+msgstr "Não mostrar qualquer texto das entradas associadas. (Apenas será mostrado o título com a respectiva ligação para cada entrada)"
+
+#: ../options_page.php:46
+msgid "Show an excerpt of the associated posts."
+msgstr "Mostrar um excerto do texto referente as entradas associadas"
+
+#: ../options_page.php:51
+msgid "Show a post thumbnail of the associated posts."
+msgstr "Mostrar uma miniatura (thumbnail) das entradas associadas"
+
+#: ../options_page.php:56
+msgid "Show the full text of the associated posts."
+msgstr "Mostrar o texto completo das entradas associadas"
+
+#: ../options_page.php:61
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../options_page.php:64
+msgid "Please hide the Associated Posts Pro banner. Of course I will buy it."
+msgstr ""
+

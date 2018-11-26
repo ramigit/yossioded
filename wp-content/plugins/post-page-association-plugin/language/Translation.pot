@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Page Associator Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-16 17:21+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dennis Hoppe\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: t;t:2c,1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-plugin-post-page-associator.php:92
+msgid "Associated Posts Settings"
+msgstr ""
+
+#: ../wp-plugin-post-page-associator.php:93
+#: ../wp-plugin-post-page-associator.php:103
+msgid "Associated Posts"
+msgstr ""
+
+#: ../wp-plugin-post-page-associator.php:154
+msgid "Associate posts with this page"
+msgstr ""
+
+#: ../meta_box.php:4
+msgid "Select posts by category"
+msgstr ""
+
+#: ../meta_box.php:6
+#: ../meta_box.php:27
+#: ../meta_box.php:48
+msgid "Selection mode:"
+msgstr ""
+
+#: ../meta_box.php:8
+msgid "Add to my selection: All posts which are at least in one of these categories."
+msgstr ""
+
+#: ../meta_box.php:9
+msgid "Filter my selection: Only posts which are at least in one of these categories."
+msgstr ""
+
+#: ../meta_box.php:10
+msgid "Add to my selection: All posts which are in all of these categories."
+msgstr ""
+
+#: ../meta_box.php:11
+msgid "Filter my selection: Only posts which are in all of these categories."
+msgstr ""
+
+#: ../meta_box.php:12
+msgid "Do not care about categories."
+msgstr ""
+
+#: ../meta_box.php:25
+msgid "Select posts by tag"
+msgstr ""
+
+#: ../meta_box.php:29
+msgid "Add to my selection: All posts which are tagged with at least one of these tags."
+msgstr ""
+
+#: ../meta_box.php:30
+msgid "Filter my selection: Only posts which are tagged with at least one of these tags."
+msgstr ""
+
+#: ../meta_box.php:31
+msgid "Add to my selection: All posts which are tagged with all of these tags."
+msgstr ""
+
+#: ../meta_box.php:32
+msgid "Filter my selection: Only posts which are tagged with all of these tags."
+msgstr ""
+
+#: ../meta_box.php:33
+msgid "Do not care about tags."
+msgstr ""
+
+#: ../meta_box.php:46
+msgid "Select posts by author"
+msgstr ""
+
+#: ../meta_box.php:50
+msgid "Add to my selection: All posts by these authors."
+msgstr ""
+
+#: ../meta_box.php:51
+msgid "Filter my selection: Only posts by these authors."
+msgstr ""
+
+#: ../meta_box.php:52
+msgid "Do not care about authors."
+msgstr ""
+
+#: ../meta_box.php:64
+msgid "Select posts explicitly (Additionally to your Selection.)"
+msgstr ""
+
+#: ../meta_box.php:69
+#, php-format
+msgid "Post %s (Without title)"
+msgstr ""
+
+#: ../meta_box.php:78
+msgid "Number of posts:"
+msgstr ""
+
+#: ../meta_box.php:78
+msgid "Leave blank to show all."
+msgstr ""
+
+#: ../meta_box.php:82
+msgid "Offset:"
+msgstr ""
+
+#: ../meta_box.php:82
+msgid "Leave blank to start with the first post."
+msgstr ""
+
+#: ../meta_box.php:83
+#: ../meta_box.php:88
+#, php-format
+msgid "This feature is only available in <a href=\"%s\" target=\"_blank\">Associated Posts Pro</a>."
+msgstr ""
+
+#: ../meta_box.php:87
+msgid "Posts per page:"
+msgstr ""
+
+#: ../meta_box.php:87
+msgid "Leave blank to show all posts on one page."
+msgstr ""
+
+#: ../meta_box.php:93
+msgid "Order posts by:"
+msgstr ""
+
+#: ../meta_box.php:104
+msgid "Order:"
+msgstr ""
+
+#: ../meta_box.php:106
+msgid "Descending"
+msgstr ""
+
+#: ../meta_box.php:107
+msgid "Ascending"
+msgstr ""
+
+#: ../meta_box.php:112
+#: ../meta_box.php:116
+#: ../meta_box.php:117
+#: ../options_page.php:70
+#: ../options_page.php:71
+msgid "Buy the Pro-Version"
+msgstr ""
+
+#: ../meta_box.php:122
+msgid "Template"
+msgstr ""
+
+#: ../meta_box.php:134
+#: ../meta_box.php:136
+#: ../options_page.php:27
+#: ../options_page.php:29
+msgid "by"
+msgstr ""
+
+#: ../options_page.php:1
+msgid "Position"
+msgstr ""
+
+#: ../options_page.php:4
+msgid "Append the associated posts to the pages content."
+msgstr ""
+
+#: ../options_page.php:8
+msgid "Prepend the associated posts to the pages content."
+msgstr ""
+
+#: ../options_page.php:12
+msgid "<b>Do not</b> show the associated posts to the pages automatically. (In this case you have to add the short code manually.)"
+msgstr ""
+
+#: ../options_page.php:16
+msgid "Templates"
+msgstr ""
+
+#: ../options_page.php:32
+#, php-format
+msgid "Found in <em>%s</em>."
+msgstr ""
+
+#: ../options_page.php:41
+msgid "Do not show any text of the associated posts. (Only the title with link to the post.)"
+msgstr ""
+
+#: ../options_page.php:46
+msgid "Show an excerpt of the associated posts."
+msgstr ""
+
+#: ../options_page.php:51
+msgid "Show a post thumbnail of the associated posts."
+msgstr ""
+
+#: ../options_page.php:56
+msgid "Show the full text of the associated posts."
+msgstr ""
+
+#: ../options_page.php:61
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../options_page.php:64
+msgid "Please hide the Associated Posts Pro banner. Of course I will buy it."
+msgstr ""
+

@@ -1,0 +1,56 @@
+[22-Nov-2018 05:41:36 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home2/yossiode/public_html/wordpress/wp-settings.php on line 204
+[22-Nov-2018 05:41:54 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home2/yossiode/public_html/wordpress/wp-settings.php on line 204
+[22-Nov-2018 05:43:29 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home2/yossiode/public_html/wordpress/wp-settings.php on line 204
+[22-Nov-2018 05:43:43 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home2/yossiode/public_html/wordpress/wp-settings.php on line 204
+[22-Nov-2018 05:44:11 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home2/yossiode/public_html/wordpress/wp-settings.php on line 204
+[22-Nov-2018 05:46:08 UTC] PHP Notice:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8! Use wp_register_sidebar_widget() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:46:08 UTC] PHP Notice:  register_widget_control is <strong>deprecated</strong> since version 2.8! Use wp_register_widget_control() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:46:08 UTC] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead in /home2/yossiode/public_html/wordpress/wp-includes/class-http.php on line 1348
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8! Use wp_register_sidebar_widget() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  register_widget_control is <strong>deprecated</strong> since version 2.8! Use wp_register_widget_control() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead in /home2/yossiode/public_html/wordpress/wp-includes/class-http.php on line 1348
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead in /home2/yossiode/public_html/wordpress/wp-includes/class-http.php on line 1348
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead in /home2/yossiode/public_html/wordpress/wp-includes/class-http.php on line 1348
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  Undefined property: WP_User::$user_level in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1279
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  Undefined property: WP_User::$user_level in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1279
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:46:09 UTC] PHP Notice:  Undefined index: ltasurl in /home2/yossiode/public_html/wordpress/wp-content/plugins/flash-video-player/flash-video-player.php on line 96
+[22-Nov-2018 05:46:44 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home2/yossiode/public_html/wordpress/wp-settings.php on line 204
+[22-Nov-2018 05:46:53 UTC] PHP Notice:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8! Use wp_register_sidebar_widget() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:46:53 UTC] PHP Notice:  register_widget_control is <strong>deprecated</strong> since version 2.8! Use wp_register_widget_control() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:46:53 UTC] PHP Notice:  Undefined property: WP_User::$user_level in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1279
+[22-Nov-2018 05:46:53 UTC] PHP Notice:  Undefined property: WP_User::$user_level in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1279
+[22-Nov-2018 05:46:53 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:46:53 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:46:53 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:46:53 UTC] PHP Notice:  Undefined index: ltasurl in /home2/yossiode/public_html/wordpress/wp-content/plugins/flash-video-player/flash-video-player.php on line 96
+[22-Nov-2018 05:47:01 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home2/yossiode/public_html/wordpress/wp-settings.php on line 204
+[22-Nov-2018 05:47:13 UTC] PHP Notice:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8! Use wp_register_sidebar_widget() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:47:13 UTC] PHP Notice:  register_widget_control is <strong>deprecated</strong> since version 2.8! Use wp_register_widget_control() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:47:13 UTC] PHP Notice:  Undefined property: WP_User::$user_level in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1279
+[22-Nov-2018 05:47:13 UTC] PHP Notice:  Undefined property: WP_User::$user_level in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1279
+[22-Nov-2018 05:47:13 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:47:13 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:47:13 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:47:13 UTC] PHP Notice:  Undefined index: ltasurl in /home2/yossiode/public_html/wordpress/wp-content/plugins/flash-video-player/flash-video-player.php on line 96
+[22-Nov-2018 05:47:23 UTC] PHP Notice:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8! Use wp_register_sidebar_widget() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:47:23 UTC] PHP Notice:  register_widget_control is <strong>deprecated</strong> since version 2.8! Use wp_register_widget_control() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:47:23 UTC] PHP Notice:  Undefined property: WP_User::$user_level in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1279
+[22-Nov-2018 05:47:23 UTC] PHP Notice:  Undefined property: WP_User::$user_level in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1279
+[22-Nov-2018 05:47:23 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:47:23 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:47:23 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:47:23 UTC] PHP Notice:  Undefined index: ltasurl in /home2/yossiode/public_html/wordpress/wp-content/plugins/flash-video-player/flash-video-player.php on line 96
+[22-Nov-2018 05:47:34 UTC] PHP Notice:  register_sidebar_widget is <strong>deprecated</strong> since version 2.8! Use wp_register_sidebar_widget() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:47:34 UTC] PHP Notice:  register_widget_control is <strong>deprecated</strong> since version 2.8! Use wp_register_widget_control() instead. in /home2/yossiode/public_html/wordpress/wp-includes/functions.php on line 3237
+[22-Nov-2018 05:47:34 UTC] PHP Notice:  Undefined property: WP_User::$user_level in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1279
+[22-Nov-2018 05:47:34 UTC] PHP Notice:  Undefined property: WP_User::$user_level in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1279
+[22-Nov-2018 05:47:34 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:47:34 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:47:34 UTC] PHP Notice:  Undefined variable: options in /home2/yossiode/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 1119
+[22-Nov-2018 05:47:34 UTC] PHP Notice:  Undefined index: ltasurl in /home2/yossiode/public_html/wordpress/wp-content/plugins/flash-video-player/flash-video-player.php on line 96
+[25-Nov-2018 07:09:01 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home2/yossiode/test.yossioded.com/wp-settings.php on line 204
+[25-Nov-2018 07:10:17 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home2/yossiode/test.yossioded.com/wp-settings.php on line 204
+[25-Nov-2018 07:21:38 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home2/yossiode/test.yossioded.com/wp-settings.php on line 204

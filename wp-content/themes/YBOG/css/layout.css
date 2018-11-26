@@ -1,0 +1,352 @@
+
+/* LAYOUT */
+/* ----------------------------------------- */
+
+body {
+	
+}
+
+#container {
+	margin: 20px auto 0;
+	width: 940px;
+}
+
+#splash {
+	margin: 20px auto;
+	width: 940px;
+}
+
+#header {
+	border-bottom: 1px solid #000000;
+	padding-bottom: 20px;
+}
+
+#splash_header {
+	height: 40px;
+}
+
+#main {
+	/*margin: 30px 0;*/
+	overflow: hidden;
+}
+
+#content {
+	width: 820px;
+	float: right;
+	margin: 25px 0 10px 0;
+/*	overflow: hidden; */
+}
+
+.top {
+	margin-bottom: 35px;
+}
+
+.left_col {
+	width: 310px;
+	margin-right: 40px;
+	margin-bottom: 35px;
+	float: left;
+}
+
+.right_col {
+	width: 470px;
+	float: right;
+	margin-bottom: 35px;
+}
+
+.news {
+	margin-bottom: 20px;
+}
+
+
+.item .right_col, .sub_item .right_col {
+	width: 470px;
+	float: right;
+	margin-top: 0;
+}
+
+.calendar .right_col {
+	width: 470px;
+	float: right;
+	margin-top: -50px;
+}
+
+.work .right_col {
+	width: 470px;
+	float: right;
+	margin-top: -15px;	
+}
+
+.splash .right_col{
+	width: 265px;
+	float: right;
+	margin: 0;
+	font-size: 10px;	
+}
+
+
+.sub_item {
+	border-top: 1px solid #000000;
+	padding: 25px 0 0 0;
+	float: right;
+
+}
+
+.press {
+	margin-bottom: 20px;
+}
+
+.press_work {
+	margin-bottom: 30px;
+}
+
+#sidebar {
+	width: 80px;
+	margin: 90px 40px 0 0;
+	float: left;
+}
+
+#bookmarks {
+	margin-top: 20px;
+}
+
+#footer {
+	border-top: 1px solid #000000;
+	padding-top: 30px;
+	/*clear: both;*/
+}
+
+#footer li {
+	display: inline;
+	padding: 5px;
+}
+
+#bottom_menu {
+ 	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+#sub_contact {
+	/*width: 340px;*/
+	float: left	
+}
+
+#sub_contact span {
+	/*width:130px;*/
+	/*margin-top: 12px;	*/
+}
+
+#newsletter {
+	width: 185px;
+	float: left;
+	margin-top: -8px;
+}
+
+#links {
+	float: left;
+}
+
+#copy {
+	float: left;
+	margin-left: 10px;	
+}
+
+.divider {
+	padding: 0 5px;
+}
+
+/* CONTACT FORMS */
+.wpcf7-form {
+	overflow: hidden;
+}
+
+#contact p {
+	padding: 0;
+	margin: 0 0 10px 0;
+	width: 310px;
+}
+
+#contact td {
+	padding: 0 7px 10px 0; 
+}
+
+#newsletter p {
+	margin: 0;
+}
+
+/* Main Contact Form */
+.field {
+	border: 1px solid #000000;
+	width: 235px;
+	height: 22px;
+}
+
+input#mainSubmit {
+	clear: both;
+	color: #ffffff;
+	border: 1px solid #000000;  
+	background-color: #000000;
+	width: 60px; 
+	height:23px;
+	float: right;
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+textarea {
+	border: 1px solid #000000;
+	width: 235px;
+	height: 75px; 
+}
+
+
+/* Mailing List (homepage)*/
+
+input#mlEmail {
+	width: 110px;
+	border: 1px solid #000000;
+	height: 22px;
+	display: inline;
+	color:#000000; 
+	padding-left: 5px;
+}
+
+}
+span#mlEmail{
+	width: 110px;
+}
+
+span#mlSubmit{
+	float: right;
+	margin-top:-27px;
+	width: 60px;	
+}
+
+input#submit {
+	display: inline;
+	color: #ffffff;
+	border: 1px solid #000000;  
+	background-color: #000000;
+	width: 60px; 
+	height:23px;
+	margin-top: 3px;
+	font-size: 10px;
+}
+
+.default-value {
+	font-size: 10px;
+}
+/* End of Mailing List */
+
+/* IMAGES */
+.front_img {
+	float: right;
+}
+
+/* FEATURED IMAGE */
+
+.featured_caption {
+	float: right;
+	 border:0; 
+	 text-align:left; 
+	 padding:0; 
+	 margin:0;
+	 color:  #8B8B8B;
+	 display: block;
+	 clear: both;
+}
+
+/* FRONT PAGE SLIDESHOW */
+.front_slideshow {
+	height: 570px;	
+}
+
+.aligncenter { display:block; margin:0 auto }
+.alignleft { float:left }
+.alignright { float:right }
+.wp-caption { border:0; text-align:left; padding:0; margin:0; }
+
+
+/* PHOTOSPACE GALLERY */
+.right_col .gallery {
+	margin-top: 0;
+}
+
+.right_col .gallery ul.thumbs {
+	float: right;
+}
+
+.right_col .gallery ul.thumbs li {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.right_col .gallery .slideshow-container {
+	width: 470px;
+}
+.right_col .gallery .slideshow img {
+	float: right;
+}
+
+.right_col .gallery ul.thumbs li {
+	opacity: 1.0 !important;
+}
+
+.caption .image-title_ {
+	display: none; /*do not show img title*/
+}
+
+.caption .image-desc {
+	display: none; /*do not show img description*/
+}
+
+.right_col .gallery span.image-caption {
+	left: 0 !important;
+	width: 470px !important;
+/*	float: left; */
+}
+/* just for backup
+.gallery .thumnail_col{ 
+	float:left;
+	opacity:1;
+	width:470px;
+	margin: -50px 0 0 0;
+}
+
+.gallery .slideshow-container {
+	position: relative;
+	clear: both;
+	height: auto; 
+}
+.gallery .loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 400px;
+	height: auto;
+}
+
+
+.gallery .slideshow a.advance-link {
+	display: block;
+	width: 470px;
+	height: auto; 
+	text-align: center;
+	
+}
+
+.gallery ul.thumbs {
+	margin: 0;
+	padding: 0;
+}
+.gallery ul.thumbs li {
+	float: right;
+	padding: 0;
+	margin-left: 10px;
+	list-style: none  !important;
+}
+*/

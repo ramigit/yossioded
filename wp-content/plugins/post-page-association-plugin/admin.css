@@ -1,0 +1,26 @@
+#association-selection span.option,
+#association-selection span.option-long {
+  width: 150px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#association-selection span.option-long { width: 305px; }
+
+#association-selection .select-category,
+#association-selection .select-tag,
+#association-selection .select-author,
+#association-selection .select-post,
+#association-selection .template {
+  max-height: 250px;
+  overflow: auto;
+}
+
+#association-selection .offset input,
+#association-selection .posts-per-page input {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+}
+
+div.donation-message { max-width: 600px; }

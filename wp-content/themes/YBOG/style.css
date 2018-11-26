@@ -1,0 +1,16 @@
+/*
+Theme Name: YBOG
+Theme URI: http://bycoyote.com
+Description: Yossi Berg & Oded Graf's theme (Based on Twenty Ten)
+Version: 3.0
+Author:Coyote
+Author URI: http://bycoyote.com
+
+*/
+
+@import "css/reset.css";
+@import "css/typography.css";
+@import "css/layout.css";
+
+.news-page-slider { margin: 15px 0; }
+.page-id-110 #main { border-top: #000 1px solid; }

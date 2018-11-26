@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Page Associator Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-16 17:20+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dennis Hoppe\n"
+"Language-Team: Annie Stasse\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: t;t:2c,1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-plugin-post-page-associator.php:92
+#, fuzzy
+msgid "Associated Posts Settings"
+msgstr "Billets associés"
+
+#: ../wp-plugin-post-page-associator.php:93
+#: ../wp-plugin-post-page-associator.php:103
+#, fuzzy
+msgid "Associated Posts"
+msgstr "Billets associés"
+
+#: ../wp-plugin-post-page-associator.php:154
+msgid "Associate posts with this page"
+msgstr "Billets associés à cette page"
+
+#: ../meta_box.php:4
+msgid "Select posts by category"
+msgstr "Sélectionner les billets par catégorie"
+
+#: ../meta_box.php:6
+#: ../meta_box.php:27
+#: ../meta_box.php:48
+msgid "Selection mode:"
+msgstr "Mode de sélection :"
+
+#: ../meta_box.php:8
+msgid "Add to my selection: All posts which are at least in one of these categories."
+msgstr "Ajouter à ma sélection : tous les billets qui sont au moins dans une de ces catégories."
+
+#: ../meta_box.php:9
+msgid "Filter my selection: Only posts which are at least in one of these categories."
+msgstr "Filtre de ma sélection : seulement les billets qui sont au moins dans une de ces catégories."
+
+#: ../meta_box.php:10
+msgid "Add to my selection: All posts which are in all of these categories."
+msgstr "Ajouter à ma sélection : tous les billets qui sont dans toutes ces catégories."
+
+#: ../meta_box.php:11
+msgid "Filter my selection: Only posts which are in all of these categories."
+msgstr "Filtrer ma sélection : seulement les billets qui sont dans toutes ces catégories."
+
+#: ../meta_box.php:12
+msgid "Do not care about categories."
+msgstr "Ne pas faire attention aux catégories."
+
+#: ../meta_box.php:25
+msgid "Select posts by tag"
+msgstr "Sélectionner les billets par mots-clés"
+
+#: ../meta_box.php:29
+msgid "Add to my selection: All posts which are tagged with at least one of these tags."
+msgstr "Ajouter à ma sélection : tous les billets qui sont marqués avec au moins un de ces mots-clés."
+
+#: ../meta_box.php:30
+msgid "Filter my selection: Only posts which are tagged with at least one of these tags."
+msgstr "Filtrer ma sélection : seulement les billets qui sont marqués avec au moins un de ces mots-clés."
+
+#: ../meta_box.php:31
+msgid "Add to my selection: All posts which are tagged with all of these tags."
+msgstr "Ajouter à ma sélection : tous les billets qui sont marqués avec tous ces mots-clés."
+
+#: ../meta_box.php:32
+msgid "Filter my selection: Only posts which are tagged with all of these tags."
+msgstr "Filtrer ma sélection : seulement les billets qui sont marqués avec tous ces mots-clés."
+
+#: ../meta_box.php:33
+msgid "Do not care about tags."
+msgstr "Ne pas faire attention aux mots-clés."
+
+#: ../meta_box.php:46
+msgid "Select posts by author"
+msgstr "Sélectionner les billets par auteur"
+
+#: ../meta_box.php:50
+msgid "Add to my selection: All posts by these authors."
+msgstr "Ajouter à ma sélection : tous les billets par ces auteurs."
+
+#: ../meta_box.php:51
+msgid "Filter my selection: Only posts by these authors."
+msgstr "Filtrer ma sélection : seulement les billets par ces auteurs."
+
+#: ../meta_box.php:52
+msgid "Do not care about authors."
+msgstr "Ne pas faire attention aux auteurs."
+
+#: ../meta_box.php:64
+#, fuzzy
+msgid "Select posts explicitly (Additionally to your Selection.)"
+msgstr "Sélectionner les billets sans réserve (additionnel)"
+
+#: ../meta_box.php:69
+#, php-format
+msgid "Post %s (Without title)"
+msgstr "Billets %s (sans titre)"
+
+#: ../meta_box.php:78
+msgid "Number of posts:"
+msgstr "Nombre de billets :"
+
+#: ../meta_box.php:78
+msgid "Leave blank to show all."
+msgstr "Laisser vide pour tout montrer."
+
+#: ../meta_box.php:82
+msgid "Offset:"
+msgstr ""
+
+#: ../meta_box.php:82
+msgid "Leave blank to start with the first post."
+msgstr ""
+
+#: ../meta_box.php:83
+#: ../meta_box.php:88
+#, php-format
+msgid "This feature is only available in <a href=\"%s\" target=\"_blank\">Associated Posts Pro</a>."
+msgstr ""
+
+#: ../meta_box.php:87
+msgid "Posts per page:"
+msgstr ""
+
+#: ../meta_box.php:87
+#, fuzzy
+msgid "Leave blank to show all posts on one page."
+msgstr "Laisser vide pour tout montrer."
+
+#: ../meta_box.php:93
+msgid "Order posts by:"
+msgstr "Organiser les billets par :"
+
+#: ../meta_box.php:104
+msgid "Order:"
+msgstr "Ordre:"
+
+#: ../meta_box.php:106
+msgid "Descending"
+msgstr "Descendant"
+
+#: ../meta_box.php:107
+msgid "Ascending"
+msgstr "Ascendant"
+
+#: ../meta_box.php:112
+#: ../meta_box.php:116
+#: ../meta_box.php:117
+#: ../options_page.php:70
+#: ../options_page.php:71
+msgid "Buy the Pro-Version"
+msgstr ""
+
+#: ../meta_box.php:122
+msgid "Template"
+msgstr ""
+
+#: ../meta_box.php:134
+#: ../meta_box.php:136
+#: ../options_page.php:27
+#: ../options_page.php:29
+msgid "by"
+msgstr ""
+
+#: ../options_page.php:1
+msgid "Position"
+msgstr ""
+
+#: ../options_page.php:4
+#, fuzzy
+msgid "Append the associated posts to the pages content."
+msgstr "Billets associés à cette page"
+
+#: ../options_page.php:8
+#, fuzzy
+msgid "Prepend the associated posts to the pages content."
+msgstr "Billets associés à cette page"
+
+#: ../options_page.php:12
+msgid "<b>Do not</b> show the associated posts to the pages automatically. (In this case you have to add the short code manually.)"
+msgstr ""
+
+#: ../options_page.php:16
+msgid "Templates"
+msgstr ""
+
+#: ../options_page.php:32
+#, php-format
+msgid "Found in <em>%s</em>."
+msgstr ""
+
+#: ../options_page.php:41
+msgid "Do not show any text of the associated posts. (Only the title with link to the post.)"
+msgstr "Ne montrer aucun texte des billets associés (seulement le titre en lien du billet). "
+
+#: ../options_page.php:46
+msgid "Show an excerpt of the associated posts."
+msgstr "Montrer un extrait des billets associés."
+
+#: ../options_page.php:51
+msgid "Show a post thumbnail of the associated posts."
+msgstr "Montrer une vignette des billets associés."
+
+#: ../options_page.php:56
+msgid "Show the full text of the associated posts."
+msgstr "Montrer le texte complet des billets associés."
+
+#: ../options_page.php:61
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../options_page.php:64
+msgid "Please hide the Associated Posts Pro banner. Of course I will buy it."
+msgstr ""
+

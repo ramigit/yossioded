@@ -1,0 +1,40 @@
+
+/* IE 7 */
+/* ----------------------------------------- */
+.front_slideshow {
+	overflow: hidden;
+}
+
+.slideshow-set {
+	margin-top: 0;
+	float: none;
+}
+
+#newsletter {
+	
+}
+
+span#mlEmail{
+	float: left;
+} 
+
+span#mlSubmit{
+	clear: both;
+	float: right;
+	margin-top:-27px;
+	width: 60px;	
+}
+
+/*#links, #copy, #sub_contact {
+	margin-top: 10px;
+}*/
+
+#item-70.sub_item {
+	clear: both;
+
+}
+
+.right_col .gallery ul.thumbs {
+	margin-bottom: 10px;
+}
+

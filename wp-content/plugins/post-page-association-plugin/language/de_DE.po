@@ -1,0 +1,223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Page Associator Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-16 17:02+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dennis Hoppe\n"
+"Language-Team: Dennis Hoppe\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: t;t:2c,1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-plugin-post-page-associator.php:92
+msgid "Associated Posts Settings"
+msgstr "Einstellungen für Assoziierte Artikel"
+
+#: ../wp-plugin-post-page-associator.php:93
+#: ../wp-plugin-post-page-associator.php:103
+msgid "Associated Posts"
+msgstr "Assoziierte Artikel"
+
+#: ../wp-plugin-post-page-associator.php:154
+msgid "Associate posts with this page"
+msgstr "Artikel mit dieser Seite assoziieren"
+
+#: ../meta_box.php:4
+msgid "Select posts by category"
+msgstr "Artikel nach Kategorie auswählen"
+
+#: ../meta_box.php:6
+#: ../meta_box.php:27
+#: ../meta_box.php:48
+msgid "Selection mode:"
+msgstr "Auswahlmodus:"
+
+#: ../meta_box.php:8
+msgid "Add to my selection: All posts which are at least in one of these categories."
+msgstr "In meine Selektion aufnehmen: Alle Artikel die mindestens in einer der gewählten Kategorien sind."
+
+#: ../meta_box.php:9
+msgid "Filter my selection: Only posts which are at least in one of these categories."
+msgstr "Auswahl filtern: Nur Artikel die in mindestens einer der gewählten Kategorien sind."
+
+#: ../meta_box.php:10
+msgid "Add to my selection: All posts which are in all of these categories."
+msgstr "In meine Selektion aufnehmen: Alle Artikel die in allen ausgewählten Kategorien sind."
+
+#: ../meta_box.php:11
+msgid "Filter my selection: Only posts which are in all of these categories."
+msgstr "Auswahl filtern: Nur Artikel die in allen ausgewählten Kategorien sind."
+
+#: ../meta_box.php:12
+msgid "Do not care about categories."
+msgstr "Kategorien nicht berücksichtigen."
+
+#: ../meta_box.php:25
+msgid "Select posts by tag"
+msgstr "Artikel nach Schlagwörtern auswählen"
+
+#: ../meta_box.php:29
+msgid "Add to my selection: All posts which are tagged with at least one of these tags."
+msgstr "In meine Selektion aufnehmen: Alle Artikel die mindestens eines der gewählten Schlagwörter enthalten."
+
+#: ../meta_box.php:30
+msgid "Filter my selection: Only posts which are tagged with at least one of these tags."
+msgstr "Auswahl filtern: Nur Artikel die mindestens eines der gewählten Schlagwörter enthalten."
+
+#: ../meta_box.php:31
+msgid "Add to my selection: All posts which are tagged with all of these tags."
+msgstr "In meine Selektion aufnehmen: Alle Artikel die alle der gewählten Schlagwörter enthalten."
+
+#: ../meta_box.php:32
+msgid "Filter my selection: Only posts which are tagged with all of these tags."
+msgstr "Auswahl filtern: Nur Artikel die alle ausgewählten Schlagwörter enthalten."
+
+#: ../meta_box.php:33
+msgid "Do not care about tags."
+msgstr "Schlagwörter nicht berücksichtigen."
+
+#: ../meta_box.php:46
+msgid "Select posts by author"
+msgstr "Artikel nach Autoren auswählen"
+
+#: ../meta_box.php:50
+msgid "Add to my selection: All posts by these authors."
+msgstr "In meine Selektion aufnehmen: Alle Artikel der gewählten Autoren."
+
+#: ../meta_box.php:51
+msgid "Filter my selection: Only posts by these authors."
+msgstr "Auswahl filtern: Nur Artikel der ausgewählten Autoren."
+
+#: ../meta_box.php:52
+msgid "Do not care about authors."
+msgstr "Autoren nicht berücksichtigen."
+
+#: ../meta_box.php:64
+msgid "Select posts explicitly (Additionally to your Selection.)"
+msgstr "Weitere Artikel explizit auswählen (Zusätzlich zur bisherigen Auswahl.)"
+
+#: ../meta_box.php:69
+#, php-format
+msgid "Post %s (Without title)"
+msgstr "Artikel %s (Kein Titel)"
+
+#: ../meta_box.php:78
+msgid "Number of posts:"
+msgstr "Artikelanzahl:"
+
+#: ../meta_box.php:78
+msgid "Leave blank to show all."
+msgstr "Lassen Sie dieses Feld leer um alle Artikel anzuzeigen."
+
+#: ../meta_box.php:82
+msgid "Offset:"
+msgstr "Offset:"
+
+#: ../meta_box.php:82
+msgid "Leave blank to start with the first post."
+msgstr "Lassen Sie dieses Feld leer um mit dem ersten Artikel zu beginnen."
+
+#: ../meta_box.php:83
+#: ../meta_box.php:88
+#, php-format
+msgid "This feature is only available in <a href=\"%s\" target=\"_blank\">Associated Posts Pro</a>."
+msgstr "Dieses Feature ist nur in <a href=\"%s\" target=\"_blank\">Associated Posts Pro</a> verfügbar."
+
+#: ../meta_box.php:87
+msgid "Posts per page:"
+msgstr "Artikel pro Seite:"
+
+#: ../meta_box.php:87
+msgid "Leave blank to show all posts on one page."
+msgstr "Lassen Sie dieses Feld leer um alle Artikel auf einer Seite anzuzeigen."
+
+#: ../meta_box.php:93
+msgid "Order posts by:"
+msgstr "Sortieren nach:"
+
+#: ../meta_box.php:104
+msgid "Order:"
+msgstr "Reihenfolge:"
+
+#: ../meta_box.php:106
+msgid "Descending"
+msgstr "Absteigend"
+
+#: ../meta_box.php:107
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: ../meta_box.php:112
+#: ../meta_box.php:116
+#: ../meta_box.php:117
+#: ../options_page.php:70
+#: ../options_page.php:71
+msgid "Buy the Pro-Version"
+msgstr "Kaufen Sie die Pro-Version"
+
+#: ../meta_box.php:122
+msgid "Template"
+msgstr "Vorlage"
+
+#: ../meta_box.php:134
+#: ../meta_box.php:136
+#: ../options_page.php:27
+#: ../options_page.php:29
+msgid "by"
+msgstr "von"
+
+#: ../options_page.php:1
+msgid "Position"
+msgstr "Position"
+
+#: ../options_page.php:4
+msgid "Append the associated posts to the pages content."
+msgstr "Die assoziierten Artikel an das Seitenende anhängen."
+
+#: ../options_page.php:8
+msgid "Prepend the associated posts to the pages content."
+msgstr "Die assoziierten Artikel an den Seitenanfang stellen."
+
+#: ../options_page.php:12
+msgid "<b>Do not</b> show the associated posts to the pages automatically. (In this case you have to add the short code manually.)"
+msgstr "Die assoziierten Artikel <b>nicht</b> automatisch an Seiten anhängen. (In diesem Fall müssen Sie den ShortCode selbst einfügen.)"
+
+#: ../options_page.php:16
+msgid "Templates"
+msgstr "Vorlagen"
+
+#: ../options_page.php:32
+#, php-format
+msgid "Found in <em>%s</em>."
+msgstr "Gefunden in <em>%s</em>."
+
+#: ../options_page.php:41
+msgid "Do not show any text of the associated posts. (Only the title with link to the post.)"
+msgstr "Zeige nicht den Inhalt der angehängten Artikel. (Nur den Titel der Artikel.)"
+
+#: ../options_page.php:46
+msgid "Show an excerpt of the associated posts."
+msgstr "Zeige je einen Auszug zu den angehängten Artikeln."
+
+#: ../options_page.php:51
+msgid "Show a post thumbnail of the associated posts."
+msgstr "Zeige je ein Vorschaubild zu den angehängten Artikeln."
+
+#: ../options_page.php:56
+msgid "Show the full text of the associated posts."
+msgstr "Zeige für jeden angehängten Artikel den gesamten Inhalt."
+
+#: ../options_page.php:61
+msgid "Miscellaneous"
+msgstr "Sonstiges"
+
+#: ../options_page.php:64
+msgid "Please hide the Associated Posts Pro banner. Of course I will buy it."
+msgstr "Bitte nicht mehr den Banner für Associated Posts Pro anzeigen, ich werde es kaufen."
+
