@@ -48,7 +48,13 @@
 <div id="container">
 
 	<div id=header>
-		<h1><a href="<?php echo home_url( '/news/' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-	</h1>
-	<h2><?php bloginfo( 'description' ); ?></h2>
+        <div class="header-left">
+            <h1><a href="<?php echo home_url( '/news/' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+            <h2><?php bloginfo( 'description' ); ?></h2>
+        </div>
+        <?php // if ($_SERVER["REQUEST_URI"] == "" || $_SERVER["REQUEST_URI"] == "/") { ?>
+            <div class="header-right">
+                <?php print get_post_field('post_content', '106'); ?>
+            </div>
+        <?php // } ?>
 	</div>

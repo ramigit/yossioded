@@ -11,45 +11,65 @@ get_header(); ?>
 <?php get_sidebar(); ?>
 			
 		<div id="content">
-		
-		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-		
-			<div id="item-<?php the_ID();?>" class="work">
-
-			<div class="left_col">
-			
-			<?php if ( get_post_meta($post->ID, 'YBOG_full_title', true) ) {?>
-    			<h1><?php echo get_post_meta($post->ID, 'YBOG_full_title', true) ?></h1>
-        	<?php } else { ?>
-        		<h1><?php the_title(); ?></h1>
-   			<?php	  } ?>
-				<?php the_content() ?>
-<?php edit_post_link( __( 'Edit', 'twentyten' ), '', '' ); ?>
-			</div> <!-- END OF LEFT COLUMN -->
-			
-			<div class="right_col">
-			
-		    	<?php if ( has_post_thumbnail() ) { ?>
-		    	<div>
-					<div class="featured_img"><?php the_post_thumbnail('full', array('class' => 'alignright'));  // Display a single image as  featured image if there is one ?></div>
-					<div class= "featured_caption"><p><?php the_post_thumbnail_caption();?></p></div>
-				</div>
-			<?php	
-			} elseif ( wp_plugin_post_page_associator::get_associated_posts ($page_id = Null) ) { 
-				
-				echo do_shortcode('[associated_posts]');  // display video (embed or not) as associated post if there is one			
-			} else {
-			 	echo do_shortcode('[photospace]'); // display image gallery
-			}	
-			?>
-			
-			</div> <!-- END OF RIGHT COLUMN -->	
-	
-			</div>
-<?php endwhile; ?>
-
-
+            <h1><?php the_title();?></h1>
+            <?php
+            $args = array(
+            'post_parent' => 22,
+            'post_type'   => 'any', 
+            'numberposts' => -1,
+            'post_status' => 'any' 
+            );
+            $children = get_children( $args );
+            foreach ($children as $work) {
+                print $work->post_title;
+                print "<br>";
+                // $media = get_attached_media( 'image' );
+                $args = array(
+                    'post_type' => 'attachment',
+                    'post_mime_type' => 'image',
+                    'numberposts' => -1,
+                    'post_status' => 'inherit',
+                    'post_parent' => $work->ID
+                );
+                $attachments = get_children( $args );
+                // var_dump($attachments);
+                foreach ($attachments as $attachment) {
+                    // print $attachment->post_content . "<br>";
+                    $querystr = "SELECT * from wp_postmeta where meta_key = 'display_on_works' and meta_value = 'on' and post_id = '" . $attachment->ID . "'";
+                    $image_selected = $wpdb->get_results($querystr, OBJECT);
+                    foreach ($image_selected as $image) {
+                        var_dump($image);
+                    }
+                }
+            }
+            ?>
 		</div> <!-- END OF CONTENT-->
 
 	 </div> <!--END OF MAIN-->
 <?php get_footer(); ?>
+<!--
+["ID"] => (int)
+["post_author"] => (string)
+["post_date"] => (string)
+["post_date_gmt"] => (string)
+["post_content"] => (string)
+["post_title"] => (string)
+["post_excerpt"] => (string)
+["post_status"] => (string)
+["comment_status"] => (string)
+["ping_status"] => (string)
+["post_password"] => (string)
+["post_name"] => (string)
+["to_ping"] => (string)
+["pinged"] => (string)
+["post_modified"] => (string)
+["post_modified_gmt"] => (string)
+["post_content_filtered"] => (string)
+["post_parent"] => (int)
+["guid"] => (string)
+["menu_order"] => (int)
+["post_type"] => (string)
+["post_mime_type"] => (string)
+["comment_count"] => (string)
+["filter"] => (string)
+-->

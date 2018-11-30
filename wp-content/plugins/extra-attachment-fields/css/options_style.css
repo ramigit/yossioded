@@ -1,0 +1,33 @@
+
+.aef21-form-block{background-color: #fff;padding: 13px 14px 14px; margin-bottom: 14px;}
+.aef21-form-block .form-table th {padding:0 0 4px 0;}
+.aef21-form-block .form-table td{padding: 0 10px 0 0; width: auto;}
+
+.aef21-form-block .form-table .ten-percent{width: 10%;}
+.aef21-form-block .form-table .fifteen-percent{width: 15%;}
+.aef21-form-block .form-table .twenty-percent{width: 20%;}
+.aef21-form-block .form-table .twenty-five-percent{width: 25%;}
+.aef21-form-block .form-table .thirty-percent{width: 30%;}
+.aef21-form-block .form-table input{width:100%;}
+.aef21-form-block .form-table .grey-light {color:#bbb; font-weight: normal;}
+.aef21-form-block .form-table .enabled-highlight{color: green; font-weight: bold;}
+.aef21-form-block .form-table p.submit{padding:0; margin:0; height: 30px;}
+.aef21-form-block.new-field .form-table p.submit{margin-top: 14px;}
+.aef21-form-block .form-table .delete-notice p.submit{margin:0; padding:0;}
+.aef21-form-block .form-table .delete-notice .delete-button { background: none; border: 0 none; box-shadow: none; color: #fa0000;
+    margin: 2px 0 0 2px;  padding: 0;   text-align: left;  text-decoration: underline;  width: auto;}
+
+select option.fa{display: block;}
+
+.aef21-form-block .form-table h3 { color: green;}
+.aef21-form-block .red-star{color:#fa0000;}
+
+.aef21-form-block.has-error .is-the-error {border: 1px solid #fa0000;}
+.aef21-form-block.has-error .th-error{color:#fa0000;}
+.aef21-form-block.has-error .error-list{background-color: #fafafa; color: #fa0000; font-size: 12px; font-weight: bold; padding: 10px 20px 3px;}
+
+#post-body-content .compat-attachment-fields{width:100%}
+
+.compat-item .compat-attachment-fields label span {float: left;}
+.compat-item .compat-attachment-fields label span.alignleft{width: 94%;}
+.compat-item .compat-attachment-fields label span.required { color: #fa0000; margin-left: 4px;width: 5px;}

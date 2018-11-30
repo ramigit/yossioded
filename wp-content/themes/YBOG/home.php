@@ -72,9 +72,9 @@ get_header(); ?>
 
 		if (have_posts()) : while (have_posts()) : the_post(); ?>
 				
-				<div id="item-<?php the_ID();?>" class="front_img">
+				<!--<div id="item-<?php the_ID();?>" class="front_img">-->
 				<?php the_content(); ?>
-				</div>
+				<!--</div>-->
 		<?php endwhile; else: ?>
 			<p>Sorry, no posts matched your criteria.</p>
 		<?php endif; ?>

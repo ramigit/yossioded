@@ -22,7 +22,8 @@
 			?>
 			<div id="links"
 				<ul>
-					<?php wp_list_bookmarks('title_li=&categorize=0&orderby=id'); ?>
+					<?php
+                    wp_list_bookmarks('title_li=&categorize=0&orderby=rating'); ?>
 				</ul>
 			</div>		
 			<div id="sub_contact">
